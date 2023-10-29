@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 16px;
+  flex-flow: column nowrap;
+  row-gap: 20px;
+  box-shadow: 0px 0px 10px hsl(218, 44%, 22%);
+}
+body .contenedor {
+  background-color: hsl(0, 0%, 100%);
+  width: 300px;
+  min-width: 300px;
+  border-radius: 15px;
+  padding: 20px 20px;
+}
+body .contenedor .img-qr {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+body .contenedor .img-qr img {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid hsl(220, 15%, 55%);
+}
+body .contenedor p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.3em;
+  color: hsl(220, 15%, 55%);
+  margin-bottom: 20px;
+}
+body .contenedor h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.3em;
+  color: hsl(218, 44%, 22%);
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
